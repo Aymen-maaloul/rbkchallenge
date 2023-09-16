@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: auto;
+}
+body{
+    background-color:rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+background-color: white;
+width: 90%;
+height: 100px;
+margin-top: 15px;
+border-radius: 20px;
+margin-left: 5%;
+}
+nav>img{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.link1{
+    display: flex;
+}
+.link2{
+    display: flex;
+}
+#link1{
+    display: grid;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.link3{
+    display: flex;
+}
+#link3{
+    display: grid;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+#link2{
+    display: grid;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.remove{
+    margin-left: 75%;
+    background: none;
+    border: none;
+    color: rgb(153, 153, 153);
+}
+.platform{
+    margin-top: 15px;
+}
+select{
+    margin-top: 5px;
+    width: 90%;
+    height: 40px;
+}
+input{
+    margin-top: 5px;
+    width: 90%;
+    height: 40px;
+}
+h5{
+    margin-top: 15px;
+    color: rgb(152, 152, 152);
+}
+.info>#phone{
+    height: 70%;
+}
+.link5{
+    height: auto;
+}
+.info>div{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 40%;
+    background-color: white;
+}
+.info>div>h1{
+    margin-left: 20px;
+    margin-top: 25px;
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info>div>p{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info>div>#addlink{
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: blueviolet;
+    color: blueviolet;
+}
+nav>a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(98, 0, 190);
+    background-color:rgb(255, 255, 255);
+}
+nav>a>svg{
+    margin-right: 10px;
+}
+#phone{
+    background: white;
+    margin-left: 8%;
+    background-position: 50% -10%;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+.phone{
+    width: 120%;
+    margin-left: -10%;
+    margin-top: 0%;
+
+}
+form{
+}
+.profile-details>div>h4{
+    width: 200px;
+}
+.profile-details{
+    display: none;
+    z-index: 1;
+}
+.profile-details>div>p{
+    width: 300px;
+    font-size: 12px;
+}
+.profile-details>div>input{
+    width: 200px;
+    margin-left: 10%;
+}
+form>div>input{
+    width: 65%;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(117, 0, 227);
+}
+.profile-details>div{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+form>div>h2{
+    width: 200px;
+}
+form>div{
+    display: flex;
+    margin-left: 25px;
+}
+form>div>input{
+    margin-left: 0%;
+    margin-right: 20px;
+}
+.email{
+    margin-left: 0%;
+    padding-right: -20px;
+}
+.btn1{
+    z-index: 100000;
+    border: none;
+    width: 30%;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin-left: 35%;
+    margin-top: 60%;
+}
+.cercle{
+    display: none;
+}
+.name{
+    display: none;
+}
+.btn2{
+    z-index: 1;
+    width: 30%;
+    border: none;
+    height: 40px;
+    background-color: rgb(222, 0, 0);
+    border-radius: 10px;
+    color: white;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.btn3{
+    z-index: 1;
+    width: 30%;
+    height: 40px;
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+    border:none;
+    color: white;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.save{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(105, 0, 204);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 75%;
+}
+.save1{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(105, 0, 204);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 75%;
+}
+nav>.links{
+    margin-left: 28%;
+    margin-top: 25px;
+    height: 200px;
+    width: 100px;
+    color: rgb(90,0,190);
+    background-color:rgb(254, 236, 254);
+}
+nav>button{
+    margin-left: 25%;
+    border: 1px solid;
+    margin-top: -10px;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: blueviolet;
+    color: blueviolet;
+}
+.info{
+    display: flex;
+    height: 900px;
+}
+#link5{
+    height: 100%;
+}
